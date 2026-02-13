@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Four Years With You ❤️</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<audio id="bgMusic" loop>
+  <source src="Kannukulla.mp3" type="audio/mpeg">
+</audio>
+
+<section class="hero">
+  <h1>Four Years.</h1>
+  <p>From strangers to soulmates.</p>
+  <button onclick="start()">Begin Our Story</button>
+</section>
+
+<section class="chapter hidden">
+  <h2>We Started As Friends</h2>
+  <img src="img/1.jpg">
+  <p>
+    No promises. No expectations.  
+    Just conversations that stayed longer than they should have.
+  </p>
+</section>
+
+<section class="chapter hidden dark">
+  <h2>Then Came Feelings</h2>
+  <img src="img/2.jpg">
+  <p>
+    The kind that scared us.  
+    The kind that didn’t ask for permission.
+  </p>
+</section>
+
+<section class="chapter hidden">
+  <h2>The Ups & Downs</h2>
+  <img src="img/3.jpg">
+  <p>
+    We fought.  
+    We broke each other a little.  
+    We learned that love isn’t gentle all the time but it stays.
+  </p>
+</section>
+
+<section class="chapter hidden dark">
+  <h2>You Became My Home</h2>
+  <img src="img/4.jpg">
+  <p class="highlight">
+    Not perfect days.  
+    Just the right person to face imperfect days with.
+  </p>
+</section>
+
+<section class="chapter hidden">
+  <h2>All the Names I Call You</h2>
+  <p id="names" class="highlight"></p>
+  <p class="soft">
+    Each name holds a different memory.  
+    All of them mean you.
+  </p>
+
+  <h3>Our Timeline</h3>
+
+  <div class="timeline">
+    <div class="moment">
+      <span>2021</span>
+      <p>We started talking.</p>
+    </div>
+
+    <div class="moment">
+      <span>First Fight</span>
+      <p>We almost gave up. But we didn’t.</p>
+    </div>
+
+    <div class="moment">
+      <span>Today</span>
+      <p>Still choosing each other.</p>
+    </div>
+  </div>
+</section>
+
+<section class="chapter hidden dark">
+  <h2>Right Now</h2>
+  <p class="question">I miss your hug.</p>
+  <button class="hugBtn" onclick="hug()">Hold Me 🤍</button>
+  <p id="hugText" class="soft"></p>
+</section>
+
+
+<section class="proposal hidden">
+  <h2>One Question.</h2>
+  <p class="question">Will you be my Valentine?</p>
+
+  <div class="buttons">
+    <button id="yesBtn">Yes ❤️</button>
+    <button id="noBtn">No 🙃</button>
+  </div>
+
+  <p id="tease" class="tease"></p>
+</section>
+
+<section class="chapter hidden">
+  <h2>Until We Meet Again</h2>
+  <p>
+    Loving you from a distance hurts.  
+    I miss your craziness.  
+    I miss your presence.  
+    I miss *us*.
+  </p>
+  <div class="distanceBox">
+  <p>Distance between us:</p>
+  <h3 id="distanceCount">0 km</h3>
+  <p class="soft">But somehow, you still feel close.</p>
+</div>
+  <p class="highlight">
+    But I believe in us.  
+    I believe we won’t fall apart.  
+    I believe this road leads to marriage to forever.
+  </p>
+  <p class="soft">
+    This distance is temporary.  
+    My love for you isn’t.
+  </p>
+
+  <button class="promiseBtn" onclick="showPromise()">Make a Promise 🤍</button>
+<p id="promiseText" class="highlight"></p>
+
+</section>
+
+<section class="final hidden">
+  <h1>Still choosing you.</h1>
+
+  <p>
+    After four years.  
+    After every misunderstanding.  
+    After every tear and every laugh.
+  </p>
+
+  <p class="highlight">
+    I would still find you in every lifetime.
+  </p>
+
+  <p class="signature">
+    I don’t just want to be your Valentine.  
+    I want to wake up next to you for the rest of my life ❤️
+  </p>
+</section>
+
+
+<script src="script.js"></script>
+<div id="secretMessage" class="secret hidden">
+  <h2>If you found this…</h2>
+  <p>
+    I’m not just asking you to be my Valentine.
+    I’m asking you to grow old with me.
+  </p>
+</div>
+</body>
+</html>
